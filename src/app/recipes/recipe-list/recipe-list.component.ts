@@ -8,6 +8,8 @@ import {Recipe} from "../recipe.model";
 })
 export class RecipeListComponent {
 recipes: Recipe[] = [
-  new Recipe('A test recipe', 'This is simply a test', 'https://hips.hearstapps.com/hmg-prod/images/delish-202002-pozole-0392-landscape-pf-1582315071.jpg?crop=1xw:0.8441943127962085xh;center,top&resize=1200:*')
+  new Recipe('A test recipe', 'This is simply a test', 'https://img.freepik.com/premium-vector/chef-recipe-logo-design-vector-illustration-white-background_685330-3470.jpg'),
+  new Recipe('A test recipe', 'This is simply a test', 'https://img.freepik.com/premium-vector/chef-recipe-logo-design-vector-illustration-white-background_685330-3470.jpg'),
+  new Recipe('A test recipe', 'This is simply a test', 'https://img.freepik.com/premium-vector/chef-recipe-logo-design-vector-illustration-white-background_685330-3470.jpg'),
 ];
 }
